@@ -1,0 +1,48 @@
+server.urlencode is used to encrypt querystring data.
+
+server,urldecode is used to decode data.
+
+server side state management
+----------------------------
+
+1.)Session state
+2.) Application state
+
+
+session state
+============
+
+Different ways to store session state
+1.InProc- stores data within application memory.
+2.staete server--
+3.sql server
+4.custome
+
+
+e.g.
+----
+
+In global.asax file
+
+void Application_start(object sender,eventArgs e){
+   Application["number"]=0;
+}
+
+
+void session_start(object sender, EventArgs e){
+  Session["number1"]=0;
+}
+
+Application state:
+-----------------
+
+
+javascript and jquery
+---------------------
+<asp:scriptmanager loadscriptbeforeUI="false">
+
+
+
+
+
+
